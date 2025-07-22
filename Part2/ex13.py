@@ -1,5 +1,5 @@
 # Start from zero
-count = 0
+count = 1
 
 # TODO:
 # Create a while loop that prints the count
@@ -7,7 +7,7 @@ count = 0
 
 # Insert your code here
 
-while count < 5:
+while count < 6:
     print(count)
     count += 1 
     # Don't forget to increase count each loop!
