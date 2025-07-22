@@ -1,9 +1,16 @@
-# TODO: Refer to the objective and sample output and figure out your own code!
-# Time to graduate :p
+import random
 
+# List of sample codenames
+codenames = ["Fearless Dragon","Mystic Phoenix","Invisible Wolf","Mighty Tiger"]
 
+# Ask for the user's name
+name = input("What is your name?\n")
 
+# Generate a random codename
+codename = random.choice(codenames)
 
+# Generate a random lucky number
+lucky_number = random.randint(1, 100)
 
 # Output the results
 print(f"{name}, your codename is: {codename}")
